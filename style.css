@@ -1,0 +1,171 @@
+/* --- HABAYNTA GUUD EE BOGGA --- */
+body {
+    font-family: Arial, sans-serif; /* Font-ka ugu caansan ee bignertu isticmaasho */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Midabka asalka ah ee cawlka fudud */
+    color: #333333;
+}
+
+/* --- MADAXA BOGGA (HEADER) --- */
+header {
+    background-color: #002855; /* Midabka Buluugga Barcelona */
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #8a052b; /* Khadka guduudka Barcelona */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #dddddd;
+}
+
+/* --- MENU-GA (NAVIGATION) --- */
+nav {
+    background-color: #111111; /* Madow fudud */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; /* Laga saaray khadka hoosta ka xariiqan */
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #8a052b; /* Marka mouse-ka la dul dhigo wuxuu noqonayaa guduud */
+    text-decoration: underline;
+}
+
+/* --- DHEXDA BOGGA (CONTAINER) --- */
+.container {
+    width: 85%; /* Cabir fudud oo beginner ah */
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc; /* Xuduud toosan oo caadi ah */
+}
+
+/* --- LABADA TIIR (COLUMNS) --- */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    color: #002855;
+    border-bottom: 2px solid #8a052b;
+    padding-bottom: 5px;
+}
+
+/* --- LIISASKA (LISTS) --- */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* --- BOGGA OUR TEAM (HALYEYYADA) --- */
+.team-member {
+    display: flex;
+    background-color: #fafafa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Wareeg ka dhigaya sawirka */
+    border: 2px solid #002855;
+    margin-right: 15px;
+    background-color: #cccccc;
+    flex-shrink: 0;
+}
+
+.member-info h3 {
+    margin: 0 0 5px 0;
+    color: #8a052b;
+}
+
+/* --- FOOMAMKA (REGISTRATION & CONTACT) --- */
+fieldset {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #002855;
+    padding: 0 5px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #aaaaaa;
+    box-sizing: border-box; /* Si uu foomku ugu dhex jiro sanduuqa */
+}
+
+/* --- BADHAMADA (BUTTONS) --- */
+button {
+    background-color: #8a052b; /* Guduud */
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #002855; /* Wuxuu isu beddelayaa buluug marka la taabto */
+}
+
+/* --- QAYBTA HOOSE (FOOTER) --- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #002855;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
